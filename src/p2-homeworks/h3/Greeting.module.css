@@ -1,7 +1,75 @@
-.someClass {
+.wrapper {
+    display: flex;
+    background: blueviolet;
+    flex-direction: column;
+    align-items: center;
+}
 
+.inpf {
+    font-family: monospace;
+    width: 300px;
+    padding: 14px 20px;
+    margin: 10px 0 25px 0;
+    border: none;
+    border-radius: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: large;
 }
 
 .error {
+    font-family: monospace;
+    width: 300px;
+    padding: 14px 20px;
+    margin: 10px 0 25px 0;
     border: 1px solid red;
+    border-radius: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: large;
+}
+
+
+
+.butt{
+    font-family: monospace;
+    width: 300px;
+    height: 50px;
+    background-color: #faae3d;
+    color: black;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.total {
+    font-family: monospace;
+    width: 100px;
+    height: 20px;
+    background-color: #faae3d;
+    color: black;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+.er {
+    font-family: monospace;
+    width: 100px;
+    height: 20px;
+    background-color: #faae3d;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
 }
