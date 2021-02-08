@@ -1,7 +1,17 @@
 .default {
-
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    background: #395236;
+    border: none;
 }
 
 .red {
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    border: none;
     background: red;
 }

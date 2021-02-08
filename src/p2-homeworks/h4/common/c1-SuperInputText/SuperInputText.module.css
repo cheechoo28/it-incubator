@@ -1,10 +1,26 @@
 .superInput {
+    font-family: monospace;
+    width: 300px;
+    padding: 14px 20px;
+    margin: 10px 0 25px 0;
+    border: 3px solid green;
+    border-radius: 15px;
+    box-sizing: border-box;
+    cursor: pointer; outline: none;
+    font-size: large;
 
 }
 
 .errorInput {
-    border: 3px solid lime;
-    background: red;
+    border: 2px solid red;
+    font-family: monospace;
+    width: 300px;
+    padding: 14px 20px;
+    margin: 10px 0 25px 0;
+    border-radius: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: large;
 }
 
 .error {
