@@ -1,3 +1,11 @@
 .App {
 
 }
+
+.header {
+    display: flex;
+}
+
+.preJun {
+    margin-left: 20px;
+}
